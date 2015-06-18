@@ -1,11 +1,12 @@
 package main
+
 import "fmt"
 
-func main(){
-	g1 := G{a:10,b:10}
-	g2 := &G{a:20,b:20}
-	f1 := F{a:30,b:30}
-	f2 := &F{a:40,b:40}
+func main() {
+	g1 := G{a: 10, b: 10}
+	g2 := &G{a: 20, b: 20}
+	f1 := F{a: 30, b: 30}
+	f2 := &F{a: 40, b: 40}
 	fmt.Println(g1.sum())
 	fmt.Println(g2.sum())
 	fmt.Println(f1.sum())
@@ -17,7 +18,7 @@ type G struct {
 	b int
 }
 
-func (g G)sum() int {
+func (g G) sum() int {
 	return g.a + g.b
 }
 
@@ -26,7 +27,6 @@ type F struct {
 	b int
 }
 
-func (f *F)sum() int {
+func (f *F) sum() int {
 	return f.a + f.b
 }
-
