@@ -1,0 +1,6 @@
+$ go run main.go
+ggg
+abcde
+ggg
+ggg
+$ 
