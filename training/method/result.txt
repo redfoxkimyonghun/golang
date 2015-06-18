@@ -1,6 +1,6 @@
-$ go run main.go 
-20
-40
+$ go run main.go
+0
+0
 60
 80
 $ 
